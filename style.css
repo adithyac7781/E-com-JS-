@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Friday{
+    display: flex;
+}
+
+.Friday h2{
+    color:white;
+}
+
+.off{
+    display: flex;
+}
+.off h1{
+    color:#EBC80C;
+}
+.off p{
+    color:white;
+    padding-top:15px
+}
+.off h3{
+    color: white;
+    padding-top:10px
+}
+.shopnow{
+    background-color: #EBC80C;
+    width:156px;
+    height: 48px;
+    margin-top: 15px;
+}
+.close-btn{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.clicon-container{
+    background-color: #1B6392;
+    color:white;
+    justify-content:space-between;
+    padding-left: 200px;
+}
+.welcome-div{
+    display: flex;
+}
+.logo-div{
+    display: flex;
+}
+.search-input{
+    width:648px;
+    height:48px;
+}
+.icons{
+    display: flex;
+}
