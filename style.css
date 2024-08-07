@@ -10,12 +10,17 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.black-img{
+    width:100px;
+    height:70px;
+}
 .Friday{
     display: flex;
 }
 
 .Friday h2{
     color:white;
+    padding-left: 5px;
 }
 
 .off{
@@ -51,14 +56,390 @@ body{
 }
 .welcome-div{
     display: flex;
+    justify-content: space-between;
 }
 .logo-div{
     display: flex;
+    padding-bottom: 20px;
+}
+.socials{
+    margin-top:20px;
+    display: flex;
+    padding-left: 150px;
+}
+.socials p{
+    margin-top: -1px;
+}
+.social-icons{
+    width:200px;
+    height:20px;
+    padding-left: 10px;
+}
+.drop-div{
+    padding-right: 300px;
+    padding-top: 20px;
+}
+
+.dropdown{
+    background: transparent;
+    border: none;
+    color:white;
+
 }
 .search-input{
-    width:648px;
-    height:48px;
+    width:450px;
+    height:50px;
+    border: none;
+}
+.search-form{
+    padding-left: 60px;
+    background-color: white;
+    margin-left: 40px;
 }
 .icons{
     display: flex;
+    padding-left: 30px;
 }
+.search-icon{
+    padding-right:15px;  
+}
+.categories{
+    display:flex;
+    justify-content: center;
+    border-bottom: 1px solid #e4edec;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.all-category{
+    background:#F2F4F5;
+    border: none;
+    color:black;
+    width:100px;
+    height: 40px;
+    margin-top: 2px;
+}
+.track-order, .compare, .support, .Help{
+    display: flex;
+    margin-left: 20px;
+}
+.order-img{
+    width:24px;
+    height:24px;
+    padding-top: 12px;
+    padding-right: 2px;
+}
+.compare-img{
+    width:24px;
+    height:24px;
+    padding-top: 13px;
+    padding-right: 2px;
+}
+.support-img{
+    width:24px;
+    height:24px;
+    padding-top: 12px;
+    padding-right: 2px;
+}
+.help-img{
+    width:24px;
+    height:24px;
+    padding-top: 12px;
+    padding-right: 2px;
+}
+.deals{
+    padding-left: 100px;
+    display: flex;
+    margin-top: 50px;
+
+}
+.deal-txt{
+    margin-top:-7px;
+
+}
+.timer{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.countdown{
+    background-color: #F3DE6D;
+    width:180px;
+    height:36px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+.browse{
+    display: flex;
+    padding-left: 600px;
+}
+.browse h3{
+    color:#2DA5F3
+}
+.arrow{
+    width:20px;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.products{
+    padding-left: 100px;
+    display: flex;
+}
+.product-div1{
+    border:1px solid #E4E7E9;
+    width:300px;
+    height:592px;
+    padding-left: 20px;
+}
+.ratings{
+    display: flex;
+    margin-top: 20px;
+}
+.star{
+    width:20px;
+    height:20px;
+}
+.ratings div{
+    padding-top: 15px;
+}
+.ratings p{
+    color:#77878F;
+}
+.price{
+    display: flex;
+}
+.price del{
+    color:#ADB7BC
+}
+.price p{
+    color:#2DA5F3;
+    margin-top: 0px;
+    padding-left: 5px;
+
+}
+.p1-footer{
+    display: flex;
+    gap:10px;
+}
+.Addcart{
+    background-color: #FA8232;
+    width:150px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Addcart button{
+    background:transparent;
+    border: none;
+    color:white;
+}
+.cart{
+   width:20px;
+   height:20px;
+}
+.drone-div, .phone-div, .gaming-div, .monitor-div, .headphone-div, .camera-div{
+    width:220px;
+    height:296px;
+    border:1px solid #E4E7E9;
+    padding-left: 10px;
+}
+.drone-price{
+    color:#2DA5F3;
+}
+
+.text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.shopping-catgs{
+    padding-left: 90px;
+    display: flex;
+    gap:10px;
+}
+.shopping-catgs img{
+    margin-left: 25px;
+}
+.shopping-catgs p{
+    text-align: center;
+}
+.laptops, .phones, .headphones, .accessories, .cameras, .tv{
+    width:200px;
+    height:200px;
+    border:1px solid #E4E7E9;
+}
+
+.charts{
+    display: flex;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.flashsale{
+    padding-bottom: 10px;
+}
+.bose, .cellphone, .smart-tv{
+    width:312px;
+    height: 104px;
+    margin-bottom: 10px;
+    display: flex;
+    border:1px solid #E4E7E9;
+}
+.best-sellers{
+    padding-left: 15px;
+}
+.samsung, .galaxy, .sony{
+    width:312px;
+    height: 104px;
+    margin-bottom: 10px;
+    display: flex;
+    border:1px solid #E4E7E9;
+}
+.top-rated{
+    padding-left: 15px;
+}
+
+.washing, .dell, .sony-cam{
+    width:312px;
+    height: 104px;
+    margin-bottom: 10px;
+    display: flex;
+    border:1px solid #E4E7E9;
+
+}
+.new-arrivals{
+    padding-left: 15px;
+}
+
+.tozo, .jbl, .wyze{
+    width:312px;
+    height: 104px;
+    margin-bottom: 10px;
+    display: flex;
+    border:1px solid #E4E7E9;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: #191C1F;
+    padding-left: 70px;
+    display: flex;
+    border-bottom: 1px solid #303639;
+}
+.section-1{
+    padding-top: 50px;
+}
+.section-1 p{
+    color:#77878F;
+}
+.section-1 h3{
+    color:white;
+}
+
+.top-category{
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.footer h2{
+    color:white
+}
+
+.top-category p{
+    color:#77878F;
+}
+.top-category h3{
+    color:white;
+
+}
+.browseAll{
+    color:#EBC80C;
+    margin-top: -7px;
+}
+.quick-links{
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.quick-links p{
+    color:#77878F;
+}
+.download{
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.google-play, .app-store{
+    display: flex;
+    background-color: #303639;
+    width:170px;
+    height:60px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.apple, .google{
+    width:32px;
+    height: 32px;
+}
+.google-play p{
+    color:white;
+}
+.app-store p{
+    color:white;
+}
+.app-store img{
+    margin-top:15px;
+}
+.google-play img{
+    margin-top:15px;
+    margin-left: -10px;
+}
+.popular-tag{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.tagrow1, .tagrow2, .tagrow3{
+    display: flex;
+    
+}
+
+.tags{
+    color:white;
+    border: 1px solid #303639;
+    width:60px;
+    height:40px;
+    text-align: center;  
+    margin-left: 5px;
+    
+}
+.tag{
+    color:white;
+    border: 1px solid #303639;
+    width:100px;
+    height:40px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.graphics{
+    color:white;
+    border: 1px solid #FFFFFF;
+    background-color: #303639;
+    width:100px;
+    height:40px;
+    text-align: center;
+    margin-left: 5px;
+}
+.bottom{
+    text-align: center;
+    border-top: 1px solid #303639;
+    color:#ADB7BC;
+    background-color: #191C1F;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
