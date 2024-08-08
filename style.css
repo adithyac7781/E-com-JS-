@@ -254,9 +254,9 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.shopping-catgs{
-    padding-left: 90px;
-    display: flex;
+.shopping-catgs{ 
+    overflow: hidden;
+    display: flex; 
     gap:10px;
 }
 .shopping-catgs img{
@@ -437,6 +437,150 @@ body{
     padding-top:20px;
     padding-bottom: 20px;
 }
+
+ /* Slideshow */
+ .shopping-catgs{
+    overflow: hidden;
+    margin-left:5%;
+    margin-right:5%;
+
+ }
+ .pre-btn{
+    position: absolute;
+    left:0;
+    background-color: #FA8232;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    width:45px;
+    height:45px;
+ }
+ .nxt-btn{
+    position: absolute;
+    right:0;
+    background-color: #FA8232;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    width:45px;
+    height:45px;
+ }
+ .slide-btn .previous, .slide-btn .next {
+    background-color: #FA8232;
+    color: white;
+}
+.buttons{
+    margin-top: 75px;
+}
+.pre-btn{
+    margin-left:55px;
+ 
+}
+.nxt-btn{
+    margin-right: 50px;
+
+}
+
+ /* MODAL */
+ dialog::backdrop{
+    background-color: #191C1F;
+    opacity: 80%;
+ }
+ .data-close-modal{
+    position: absolute;
+    right:0;
+    top:0;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    color:white;
+    background-color: grey;
+    border:none;
+ }
+ .modal-div{
+    display: flex;
+ }
+ .modalimg{
+    border:1px solid #E4E7E9;
+ }
+ .modal-info{
+    padding-left: 30px;
+ }
+ .m1{
+    display: flex;
+ }
+ .m1 img{
+    width:20px;
+    height:20px;
+    margin-top: 20px;
+    margin-right: 7px;
+ }
+ .m1 p{
+    color:#5F6C72;
+    margin-top: 22px;
+    margin-left: 7px;
+ }
+ .info{
+    display: flex;
+    margin-top: 10px;
+ }
+ .info-2{
+    margin-left: 80px;
+ }
+ .modal-price{
+    color:#2DA5F3;
+ }
+ .offer-price{
+    color:#77878F;
+    margin-left: 10px;
+ }
+ .modal-cart{
+    background-color: #FA8232;
+    width:150px;
+    padding-left: 20px;
+    padding-top: 10px;
+ }
+
+  /* SHOPPING CARD */
+  .top-logo{
+    background-color: #1B6392;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.path-div{
+    background-color: #F2F4F5;
+}
+.path-info{
+    padding-left: 150px;
+    display: flex;
+}
+.home{
+    width:20px;
+    height: 20px;
+    margin-top: 14px;
+
+}
+.homearrow{
+    width:12px;
+    height: 12px;
+    margin-top: 20px;
+}
+
+.path-info p{
+    margin-left: 10px;
+    color:#5F6C72
+}
+.path-info h4{
+    color:#2DA5F3;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+
+
 
 
 

@@ -99,10 +99,10 @@
         </div>
 
 
-        <div class="products">
-            <div class="product-div1">
-                <div>
-                    <img src="images/Image.png">
+        <div class="products data-modal-open">
+            <div class="product-div1 data-modal-open">
+                
+                    <img src="images/Image.png" class="pro-img">
                     <div class="ratings">
                         <div>
                             <img src="images/Star.png" class="star">
@@ -112,12 +112,12 @@
                         </div>
                         <p> (52,677)</p>
                     </div>
-                    <div>
+                    <div class="pro-name">
                         <p>Xbox Series S - 512GB SSD Console with Wireless Controller - EU Versio...</p>
                     </div>
                     <div class="price">
                         <del>$865.99</del>
-                        <p>$442.12</p>
+                        <p class="pro-price">$442.12</p>
                     </div>
                     <div>
                         <p>Games built using the Xbox Series X|S development kit showcase unparalleled load times, visuals.</p>
@@ -134,66 +134,66 @@
                             <img src="images/eyes.png">
                         </div>
                     </div>
-                </div>
+                
             </div>
 
             <div class="product-div2">
-                <div class="drone-div">
-                    <img src="images/drone.png">
-                    <p>Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear...</p>
-                    <p class="drone-price">$2,300</p>
+                <div class="drone-div data-modal-open">
+                    <img src="images/drone.png" class="pro-img">
+                    <p class="pro-name">Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear...</p>
+                    <p class="drone-price pro-price">$2,300</p>
                 </div>
-                <div class="phone-div">
-                    <img src="images/phone.png">
-                    <p>Dell Optiplex 7000x7480 All-in-One Computer Monitor</p>
-                    <p class="drone-price">$299</p>
+                <div class="phone-div data-modal-open">
+                    <img src="images/phone.png" class="pro-img">
+                    <p class="pro-name">Dell Optiplex 7000x7480 All-in-One Computer Monitor</p>
+                    <p class="drone-price pro-price">$299</p>
                 </div>
             </div>
 
             <div class="product-div3">
-                <div class="phone-div">
-                    <img src="images/smartphone.png">
-                    <p>Simple Mobile 4G LTE Prepaid Smartphone</p>
-                    <p class="drone-price">$220</p>
+                <div class="phone-div data-modal-open">
+                    <img src="images/smartphone.png" class="pro-img">
+                    <p class="pro-name">Simple Mobile 4G LTE Prepaid Smartphone</p>
+                    <p class="drone-price pro-price">$220</p>
                 </div>
-                <div class="drone-div">
-                    <img src="images/drone2.png">
-                    <p>Portable Wshing Machine, 11lbs capacity Model 18NMFIAM</p>
+                <div class="drone-div data-modal-open">
+                    <img src="images/drone2.png" class="pro-img">
+                    <p class="pro-name">Portable Wshing Machine, 11lbs capacity Model 18NMFIAM</p>
                     <div class="price">
                         <del>$865.99</del>
-                        <p>$70</p>
+                        <p class="pro-price">$70</p>
                     </div>
                 </div>
             </div>
 
             <div class="product-div4">
-                <div class="gaming-div">
-                    <img src="images/gaming.png">
-                    <p>4K UHD LED Smart TV with Chromecast Built-in</p>
+                <div class="gaming-div data-modal-open">
+                    <img src="images/gaming.png" class="pro-img">
+                    <p class="pro-name">4K UHD LED Smart TV with Chromecast Built-in</p>
                     <div class="price">
                         <del>$865</del>
-                        <p>$1,50</p>
+                        <p class="pro-price">$1,50</p>
                     </div>
                 </div>
-                <div class="monitor-div">
-                    <img src="images/monitor.png">
-                    <p>2-Barrel Carburetor Carb 2100 Engine Increase Horsepower</p>
-                    <p class="drone-price">$160</p>
+                <div class="monitor-div data-modal-open">
+                    <img src="images/monitor.png" class="pro-img">
+                    <p class="pro-name">2-Barrel Carburetor Carb 2100 Engine Increase Horsepower</p>
+                    <p class="drone-price pro-price">$160</p>
                 </div>
             </div>
 
             <div class="product-div5">
-                <div class="headphone-div">
-                    <img src="images/headphones copy.png">
-                    <p>Sony DSCHX8 High Zoom Point & Shoot Camera</p>
-                    <p class="drone-price">$1,200</p>
+                <div class="headphone-div data-modal-open">
+                    <img src="images/headphones copy.png" class="pro-img">
+                    <p class="pro-name">Sony DSCHX8 High Zoom Point & Shoot Camera</p>
+                    <p class="drone-price pro-price">$1,200</p>
                 </div>
-                <div class="camera-div">
-                    <img src="images/camnera.png">
-                    <p>JBL FLIP 4 - Waterproof Portable Bluetooth Speaker - Black</p>
+                <div class="camera-div data-modal-open">
+                    <img src="images/camnera.png" class="pro-img">
+                    <p class="pro-name">JBL FLIP 4 - Waterproof Portable Bluetooth Speaker - Black</p>
                     <div class="price">
                         <del>$360</del>
-                        <p>$250</p>
+                        <p class="pro-price">$250</p>
                     </div>
                 </div>
             </div>
@@ -205,66 +205,182 @@
 
 
         <div class="shopping-catgs">
-            <div class="laptops">
+            <div class="laptops" id="slide">
                 <img src="images/laptops.png">
                 <p>Computer & Laptop</p>
             </div>
-            <div class="phones">
+            <div class="phones" id="slide">
                 <img src="images/phones.png">
                 <p>SmartPhone</p>
             </div>
-            <div class="headphones">
+            <div class="headphones" id="slide">
                 <img src="images/headsets.png">
                 <p>Headphones</p>
             </div>
-            <div class="accessories">
+            <div class="accessories" id="slide">
                 <img src="images/accessories.png">
                 <p>Accessories</p>
             </div>
-            <div class="cameras">
+            <div class="cameras" id="slide">
                 <img src="images/cameras.png">
                 <p>Camera & Photo</p>
             </div>
-            <div class="tv">
+            <div class="tv" id="slide">
                 <img src="images/tv.png">
                 <p>TV and Homes</p>
+            </div>
+            <div class="phones" id="slide">
+                <img src="images/phones.png">
+                <p>SmartPhone</p>
+            </div>
+            <div class="headphones" id="slide">
+                <img src="images/headsets.png">
+                <p>Headphones</p>
+            </div>
+            <div class="cameras" id="slide">
+                <img src="images/cameras.png">
+                <p>Camera & Photo</p>
+            </div>
+            <div class="accessories" id="slide">
+                <img src="images/accessories.png">
+                <p>Accessories</p>
+            </div>
+            <div class="headphones" id="slide">
+                <img src="images/headsets.png">
+                <p>Headphones</p>
+            </div>
+            <div class="laptops" id="slide">
+                <img src="images/laptops.png">
+                <p>Computer & Laptop</p>
+            </div>
+            
+            <div class="phones" id="slide">
+                <img src="images/phones.png">
+                <p>SmartPhone</p>
+            </div>
+            <div class="headphones" id="slide">
+                <img src="images/headsets.png">
+                <p>Headphones</p>
+            </div>
+            <div class="accessories" id="slide">
+                <img src="images/accessories.png">
+                <p>Accessories</p>
+            </div>
+            <div class="cameras" id="slide">
+                <img src="images/cameras.png">
+                <p>Camera & Photo</p>
+            </div>
+            <div class="tv" id="slide">
+                <img src="images/tv.png">
+                <p>TV and Homes</p>
+            </div>
+            <div class="phones" id="slide">
+                <img src="images/phones.png">
+                <p>SmartPhone</p>
+            </div>
+            <div class="laptops" id="slide">
+                <img src="images/laptops.png">
+                <p>Computer & Laptop</p>
+            </div>
+            <div class="buttons">
+                <button type="button" class="pre-btn">&#8249;</button>
+                <button type="button" class="nxt-btn">&#8250;</button>
             </div>
         </div>
 
 
-        <div class="charts">
+
+        <!--MODAL SECTION-->
+    
+        <dialog class="data-modal">
+            <div class="modal-div">
+                <div>
+                    <img src="images/Image.png" class="modal-img">
+                </div>
+                <div class="modal-info">
+                    <div class="m1">
+                        <img src="images/Star2.png">
+                        <img src="images/Star2.png">
+                        <img src="images/Star2.png">
+                        <img src="images/Star2.png">
+                        <h4>4.7 Star Rating</h4>
+                        <p>(21,671 User feedback)</p>
+                    </div>
+                    <div class="productname">
+                        Xbox Series S - 512GB SSD Console with Wireless Controller - EU Version
+                    </div>
+                    <div class="info">
+                        <div class="info-1">
+                            <div>
+                                Sku: <strong>A264671</strong>
+                            </div>
+                            <div>
+                                Brand: Apple
+                            </div>
+                        </div>
+                        <div class="info-2">
+                            <div>
+                                Availability: <span style="color:green;">In stock</span>
+                            </div>
+                            <div>
+                                Category: <strong>Electronics Devices</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-price-div">
+                        <h3><span class="modalprice">$1699</span></h3>
+                    </div>
+
+                    <div class="Addcart">
+                        <img src="images/ShoppingCartSimple (1).png" class="cart">
+                        <button type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <button class="data-close-modal">&times;</button>
+        </dialog>
+
+         <!--END OF MODAL SECTION-->
+
+
+
+        
+    
+
+
+        <div class="charts ">
             <div class="flash-sale">
                 <div>
                     <h4>FLASH SALE TODAY</h4>
                 </div>
-                <div class="bose">
+                <div class="bose data-modal-open">
                     <div>
-                        <img src="images/bose.png">
+                        <img src="images/bose.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear...</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Bose Sport Earbuds - Wireless Earphones - Bluetooth In Ear...</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
 
                
-                <div class="cellphone">
+                <div class="cellphone data-modal-open">
                     <div>
-                        <img src="images/cell.png">
+                        <img src="images/cell.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Simple Mobile 4G LTE Prepaid Smartphone</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Simple Mobile 4G LTE Prepaid Smartphone</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
 
-                <div class="smart-tv">
+                <div class="smart-tv data-modal-open">
                     <div>
-                        <img src="images/smart-tv.png">
+                        <img src="images/smart-tv.png" class="pro-img">
                     </div>
                     <div>
-                        <p>4K UHD LED Smart TV with Chromecast Built-in</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">4K UHD LED Smart TV with Chromecast Built-in</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
            
@@ -275,33 +391,33 @@
                     <h4>BEST SELLERS</h4>
                 </div>
 
-                <div class="samsung">
+                <div class="samsung data-modal-open">
                     <div>
-                        <img src="images/samsung.png">
+                        <img src="images/samsung.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Samsung Electronics Samsung Galexy S21 5G</p>
-                        <p class="drone-price">$1,500</p>
-                    </div>
-                </div>
-
-                <div class="galaxy">
-                    <div>
-                        <img src="images/galaxy.png">
-                    </div>
-                    <div>
-                        <p>Simple Mobile 5G LTE Galexy 12 Mini 512GB Gaming Phone</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Samsung Electronics Samsung Galexy S21 5G</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
 
-                <div class="sony">
+                <div class="galaxy data-modal-open">
                     <div>
-                        <img src="images/sony.png">
+                        <img src="images/galaxy.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Sony DSCHX8 High Zoom Point & Shoot Camera</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Simple Mobile 5G LTE Galexy 12 Mini 512GB Gaming Phone</p>
+                        <p class="drone-price pro-price">$1,500</p>
+                    </div>
+                </div>
+
+                <div class="sony data-modal-open">
+                    <div>
+                        <img src="images/sony.png" class="pro-img">
+                    </div>
+                    <div>
+                        <p class="pro-name">Sony DSCHX8 High Zoom Point & Shoot Camera</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
             </div>
@@ -311,33 +427,33 @@
                     <h4>TOP RATED</h4>
                 </div>
 
-                <div class="washing">
+                <div class="washing data-modal-open">
                     <div>
-                        <img src="images/washing.png">
+                        <img src="images/washing.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Portable Wshing Machine, 11lbs capacity Model 18NMF...</p>
-                        <p class="drone-price">$1,500</p>
-                    </div>
-                </div>
-
-                <div class="sony-cam">
-                    <div>
-                        <img src="images/sony-cam.png">
-                    </div>
-                    <div>
-                        <p>Sony DSCHX8 High Zoom Point & Shoot Camera</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Portable Wshing Machine, 11lbs capacity Model 18NMF...</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
 
-                <div class="dell">
+                <div class="sony-cam data-modal-open">
                     <div>
-                        <img src="images/dell.png">
+                        <img src="images/sony-cam.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Dell Optiplex 7000x7480 All-in-One Computer Monitor</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">Sony DSCHX8 High Zoom Point & Shoot Camera</p>
+                        <p class="drone-price pro-price">$1,500</p>
+                    </div>
+                </div>
+
+                <div class="dell data-modal-open">
+                    <div>
+                        <img src="images/dell.png" class="pro-img">
+                    </div>
+                    <div>
+                        <p class="pro-name">Dell Optiplex 7000x7480 All-in-One Computer Monitor</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
             </div>
@@ -347,33 +463,33 @@
                     <h4>NEW ARRIVALS</h4>
                 </div>
 
-                <div class="tozo">
+                <div class="tozo data-modal-open">
                     <div>
-                        <img src="images/tozo.png">
+                        <img src="images/tozo.png" class="pro-img">
                     </div>
                     <div>
-                        <p>TOZO T6 True Wireless Earbuds Bluetooth Headpho...</p>
-                        <p class="drone-price">$1,500</p>
-                    </div>
-                </div>
-
-                <div class="jbl">
-                    <div>
-                        <img src="images/jbl.png">
-                    </div>
-                    <div>
-                        <p>JBL FLIP 4 - Waterproof Portable Bluetooth Speaker...</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">TOZO T6 True Wireless Earbuds Bluetooth Headpho...</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
 
-                <div class="wyze">
+                <div class="jbl data-modal-open">
                     <div>
-                        <img src="images/wyze.png">
+                        <img src="images/jbl.png" class="pro-img">
                     </div>
                     <div>
-                        <p>Wyze Cam Pan v2 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smar...</p>
-                        <p class="drone-price">$1,500</p>
+                        <p class="pro-name">JBL FLIP 4 - Waterproof Portable Bluetooth Speaker...</p>
+                        <p class="drone-price pro-price">$1,500</p>
+                    </div>
+                </div>
+
+                <div class="wyze data-modal-open">
+                    <div>
+                        <img src="images/wyze.png" class="pro-img">
+                    </div>
+                    <div>
+                        <p class="pro-name">Wyze Cam Pan v2 1080p Pan/Tilt/Zoom Wi-Fi Indoor Smar...</p>
+                        <p class="drone-price pro-price">$1,500</p>
                     </div>
                 </div>
             </div>
@@ -486,5 +602,7 @@
         <div class="bottom">
             <p>Kinbo - eCommerce Template © 2021. Design by Templatecookie</p>
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
