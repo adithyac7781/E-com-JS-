@@ -50,9 +50,11 @@
                     </div>
                     
                     <div class="icons">
-                        <img src="images/ShoppingCartSimple.png">
-                        <img src="images/Heart (1).png">
-                        <img src="images/User.png">
+                        <a href="shoppingcard.html">
+                            <img src="images/Vector (7).png" style="width:30px;height:25px;">
+                        </a>
+                        <img src="images/Heart (1).png" style="width:30px;height:30px;">
+                        <img src="images/User.png" style="width:30px;height:30px;">
                     </div>
                 </div>
             </div>
@@ -328,16 +330,32 @@
                         </div>
                     </div>
                     <div class="modal-price-div">
-                        <h3><span class="modalprice">$1699</span></h3>
+                        <h3>$<span class="modalprice">1699</span></h3>
                     </div>
 
-                    <div class="Addcart">
-                        <img src="images/ShoppingCartSimple (1).png" class="cart">
-                        <button type="button">ADD TO CART</button>
+                    <div class="modal-bottom">
+                        <div class="quantity">
+                            <div class="minus">
+                                <img src="images/Minus.png">
+                            </div>
+                            <div>
+                                <p class="quant-value">01</p>
+                            </div>
+                            <div class="plus">
+                                <img src="images/Plus.png">
+                            </div> 
+                        </div>
+                        <div class="Addcart">
+                            <img src="images/ShoppingCartSimple (1).png" class="cart">
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                        <div class="buy-now">
+                            <p>BUY NOW</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <button class="data-close-modal">&times;</button>
+            <button class="data-close-modal" onclick="closebutton()">&times;</button>
         </dialog>
 
          <!--END OF MODAL SECTION-->

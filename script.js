@@ -20,21 +20,17 @@ productContainers.forEach((item, i) => {
 })
 
 //MODAL
-const openButton=document.querySelector(".data-modal-open")
 const closeButton=document.querySelector(".data-close-modal")
 const modal=document.querySelector(".data-modal")
 
-openButton.addEventListener('click',()=>{
-    modal.showModal();
+//closeButton.addEventListener('click',()=>{
+ //   modal.close();
+///}
+//)
+
+function closebutton(){
+  modal.close();
 }
-)
-closeButton.addEventListener('click',()=>{
-    modal.close();
-}
-)
-
-
-
 productname=document.querySelector('.productname');
 modalprice=document.querySelector('.modalprice');
 modalimg=document.querySelector('.modal-img');
@@ -44,6 +40,7 @@ modalimg=document.querySelector('.modal-img');
 const products = document.querySelectorAll(".product-div1,.drone-div,.phone-div,.gaming-div,.monitor-div,.headphone-div,.camera-div");
 products.forEach((product) => {
   product.addEventListener("click", () => {
+    modal.showModal();
     productname.textContent = product.querySelector(".pro-name").textContent;
     modalprice.textContent = product.querySelector(".pro-price").textContent;
     modalimg.src = product.querySelector(".pro-img").src;
@@ -61,5 +58,69 @@ products2.forEach((product2) => {
     modalimg.src = product2.querySelector(".pro-img").src;
   });
 });
+
+//increasing count in modal
+
+const counterElement=document.querySelector(".quant-value");
+const increaseButton=document.querySelector(".plus");
+const decreaseButton=document.querySelector(".minus");
+
+let count=0;
+function updateCounter(){
+  counterElement.textContent = count;
+}
+increaseButton.addEventListener('click', () => {
+  count++;
+  updateCounter();
+});
+decreaseButton.addEventListener('click', () => {
+
+  if(count>0)
+    count--;
+
+  updateCounter();
+});
+
+updateCounter();
+
+//Adding item to cart
+
+const addToCart = document.querySelector(".cart-btn");
+
+addToCart.addEventListener("click", () => {
+  const quant= document.querySelector('.quant-value').textContent;
+  const proName = document.querySelector(".productname").textContent;
+  const proPrice = document.querySelector(".modalprice").textContent;
+  const proImage = document.querySelector(".modal-img").src;
+
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const existingProductIndex = cart.findIndex(
+    (item) => item.name === proName
+  );
+  if (existingProductIndex > -1) {
+    cart[existingProductIndex].quant += quant;
+  } 
+  else {
+    cart.push({
+      name: proName,
+      price: proPrice,
+      image: proImage,
+      quantity: quant,
+    });
+  }
+  localStorage.setItem("cart", JSON.stringify(cart));
+  alert(`${quant} ${proName} added to cart`);
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
