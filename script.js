@@ -23,11 +23,6 @@ productContainers.forEach((item, i) => {
 const closeButton=document.querySelector(".data-close-modal")
 const modal=document.querySelector(".data-modal")
 
-//closeButton.addEventListener('click',()=>{
- //   modal.close();
-///}
-//)
-
 function closebutton(){
   modal.close();
 }
@@ -72,6 +67,7 @@ function updateCounter(){
 increaseButton.addEventListener('click', () => {
   count++;
   updateCounter();
+  
 });
 decreaseButton.addEventListener('click', () => {
 
@@ -111,6 +107,13 @@ addToCart.addEventListener("click", () => {
   localStorage.setItem("cart", JSON.stringify(cart));
   alert(`${quant} ${proName} added to cart`);
 })
+//updating cartcount
+const updateCartCount = () => {
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const itemsCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
+  document.querySelector(".items-in-cart").textContent = itemsCount;
+};
+updateCartCount()
 
 
 

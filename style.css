@@ -96,9 +96,15 @@ body{
     background-color: white;
     margin-left: 40px;
 }
+.search-input:focus{
+    outline: none;
+}
+.arr{
+    margin-bottom: -4px;
+}
 .icons{
     display: flex;
-    padding-left: 80px;
+    padding-left: 75px;
     padding-top: 10px;
     gap:5px
 }
@@ -595,6 +601,8 @@ outline: none;
   /* SHOPPING CARD */
   .top-logo{
     background-color: #1B6392;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 150px;
     padding-right: 150px;
     display: flex;
@@ -652,7 +660,8 @@ outline: none;
     justify-content: space-between;
 }
 .item{
-    display:flex;
+    display: none;
+    position: relative;
 }
 .item-close{
     margin-top: 20px;
@@ -665,10 +674,11 @@ outline: none;
     width:50px;
     height:60px;
 }
-.item-price{
+.item-p{
     padding-left: 40px;
     margin-top: 35px;
 }
+
 .quantity2{
     display: flex;
     width:120px;
@@ -676,13 +686,18 @@ outline: none;
     border:2px solid #E4E7E9;
     margin-right: 10px;
     position: relative;
-    margin-left: 110px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
  }
  .item-total{
-    padding-left:80px;
     margin-top: 35px;
 }
+.sum{
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+   
 .return-container{
     display: flex;
     border-top: 1px solid #E4E7E9;
@@ -704,6 +719,10 @@ outline: none;
 .return-div p{
     margin-left: 10px;
 }
+.return-div a{
+    text-decoration: none;
+    color:#2DA5F3;
+}
 .update-div{
     width:150px;
     height: 50px;
@@ -723,6 +742,9 @@ outline: none;
 }
 .card-totals h2{
     margin-left: 10px;
+}
+.total-amt{
+    padding-right: 5px;
 }
 .shopping-card h2{
     margin-left: 10px;
@@ -758,6 +780,17 @@ outline: none;
 }
 .proceed p{
     padding-left: 50px;
+}
+.items-in-cart{
+    position:absolute;
+    margin-top:-8px;
+    background-color:white;
+    border-radius: 100px;
+    width:18px;
+    height: 17px;
+    text-align: center;
+    color:#1B6392;
+    border: 1.5px solid #1B6392
 }
 
 

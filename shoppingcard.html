@@ -9,10 +9,15 @@
             <div>
                 <img src="images/Logo.png">
             </div>
-            <div>
-                <img src="images/ShoppingCartSimple.png">
-                <img src="images/Heart (1).png">
-                <img src="images/User.png">
+            <div style="display: flex;">
+                <div style="display: flex;position: relative;">
+                    <img src="images/Vector (7).png" style="width:30px;height:25px;">
+                    <div style="position: relative;">
+                        <p class="items-in-cart">0</p>
+                    </div>
+                  </div>
+                <img src="images/Heart (1).png" style="width:30px;height:30px;padding-left: 20px;">
+                <img src="images/User.png" style="width:30px;height:30px;padding-left: 6px;">
             </div>
         </div>
         <div class="categories">
@@ -65,7 +70,7 @@
                         <img src="images/tv.png" class="item-img">
                         <p style="width:100px" class="item-name">4K UHD LED Smart TV with Chromecast Built-in</p>  
                         <div>
-                            <p class="item-price">$70</p>
+                            <p class="item-p">&dollar;<span class="item-price">70</span></p>
                         </div> 
                         <div class="quantity2">
                             <div class="minus">
@@ -79,7 +84,7 @@
                             </div> 
                         </div>
                         <div>
-                            <p class="item-total">$70</p>
+                            <p class="sum">&dollar;<span class="item-total">70</span></p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +93,7 @@
                 <div class="return-container">
                     <div class="return-div">
                         <img src="images/ArrowLeft.png" style="width:20px;height:20px;">
-                        <p>RETURN TO SHOP</p>
+                        <a href="index.html"><p>RETURN TO SHOP</p></a>
                     </div>
                     <div class="update-div">
                         <p>UPDATE CART</p>
@@ -100,7 +105,7 @@
                 <h2>Card Totals</h2>
                 <div class="sub">
                     <p style="color:#5F6C72">Sub-total</p>
-                    <p class="sub-total">$320</p>
+                    <p>&dollar;<span  class="sub-total">320</span></p>
                 </div>
                 <div class="shipping">
                     <p style="color:#5F6C72">Shipping</p>
@@ -108,15 +113,15 @@
                 </div>
                 <div class="discount">
                     <p style="color:#5F6C72">Discount</p>
-                    <p class="discount-amt">$24</p>
+                    <p>&dollar;<span  class="discount-amt">20</span></p>
                 </div>
                 <div class="tax">
                     <p style="color:#5F6C72">Tax</p>
-                    <p class="tax-amt">$$61.99</p>
+                    <p>&dollar;<span  class="tax-amt">60</span></p>
                 </div>
                 <div class="total">
                     <p>Total</p>
-                    <p class="total-amt">$357.99 USD</p>
+                    <p>&dollar;<span  class="total-amt">357 </span>USD</p>
                 </div>
                 <div class="proceed">
                     <p>PROCEED TO CHECKOUT</p>
@@ -124,11 +129,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
 
         <div class="footer">
             <div class="section-1">
@@ -191,6 +191,8 @@
         <div class="bottom">
             <p>Kinbo - eCommerce Template © 2021. Design by Templatecookie</p>
         </div>
+
+         
 
 
 
