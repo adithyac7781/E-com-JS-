@@ -25,6 +25,9 @@ const modal=document.querySelector(".data-modal")
 
 function closebutton(){
   modal.close();
+  count=0;
+  document.querySelector('.quant-value').textContent=count;
+
 }
 productname=document.querySelector('.productname');
 modalprice=document.querySelector('.modalprice');
@@ -79,6 +82,7 @@ decreaseButton.addEventListener('click', () => {
 
 updateCounter();
 
+
 //Adding item to cart
 
 const addToCart = document.querySelector(".cart-btn");
@@ -106,6 +110,7 @@ addToCart.addEventListener("click", () => {
   }
   localStorage.setItem("cart", JSON.stringify(cart));
   alert(`${quant} ${proName} added to cart`);
+  updateCartCount()
 })
 //updating cartcount
 const updateCartCount = () => {
