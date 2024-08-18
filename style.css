@@ -1,7 +1,6 @@
 body{
     margin: 0;
 }
-
 .top{
     display: flex;
     background-color: black;
@@ -17,12 +16,10 @@ body{
 .Friday{
     display: flex;
 }
-
 .Friday h2{
     color:white;
     padding-left: 5px;
 }
-
 .off{
     display: flex;
 }
@@ -47,7 +44,6 @@ body{
     padding-top: 20px;
     padding-right: 10px;
 }
-
 .clicon-container{
     background-color: #1B6392;
     color:white;
@@ -79,12 +75,10 @@ body{
     padding-right: 300px;
     padding-top: 20px;
 }
-
 .dropdown{
     background: transparent;
     border: none;
     color:white;
-
 }
 .search-input{
     width:450px;
@@ -159,11 +153,9 @@ body{
     padding-left: 100px;
     display: flex;
     margin-top: 50px;
-
 }
 .deal-txt{
     margin-top:-7px;
-
 }
 .timer{
     display: flex;
@@ -226,7 +218,6 @@ body{
     color:#2DA5F3;
     margin-top: 0px;
     padding-left: 5px;
-
 }
 .p1-footer{
     display: flex;
@@ -238,9 +229,8 @@ body{
     padding-left: 20px;
     padding-top: 10px;
 }
-
 .cart-btn:focus{
-outline: none;
+    outline: none;
 }
 .Addcart button{
     background:transparent;
@@ -260,7 +250,6 @@ outline: none;
 .drone-price{
     color:#2DA5F3;
 }
-
 .text{
     text-align: center;
     margin-top: 50px;
@@ -282,7 +271,6 @@ outline: none;
     height:200px;
     border:1px solid #E4E7E9;
 }
-
 .charts{
     display: flex;
     padding-left: 70px;
@@ -311,19 +299,16 @@ outline: none;
 .top-rated{
     padding-left: 15px;
 }
-
 .washing, .dell, .sony-cam{
     width:312px;
     height: 104px;
     margin-bottom: 10px;
     display: flex;
     border:1px solid #E4E7E9;
-
 }
 .new-arrivals{
     padding-left: 15px;
 }
-
 .tozo, .jbl, .wyze{
     width:312px;
     height: 104px;
@@ -331,7 +316,6 @@ outline: none;
     display: flex;
     border:1px solid #E4E7E9;
 }
-
 .footer{
     margin-top: 40px;
     background-color: #191C1F;
@@ -348,7 +332,6 @@ outline: none;
 .section-1 h3{
     color:white;
 }
-
 .top-category{
     padding-top: 40px;
     padding-left: 80px;
@@ -356,13 +339,11 @@ outline: none;
 .footer h2{
     color:white
 }
-
 .top-category p{
     color:#77878F;
 }
 .top-category h3{
     color:white;
-
 }
 .browseAll{
     color:#EBC80C;
@@ -379,7 +360,6 @@ outline: none;
     padding-top: 40px;
     padding-left: 80px;
 }
-
 .google-play, .app-store{
     display: flex;
     background-color: #303639;
@@ -411,17 +391,22 @@ outline: none;
 }
 .tagrow1, .tagrow2, .tagrow3{
     display: flex;
-    
 }
-
 .tags{
     color:white;
     border: 1px solid #303639;
     width:60px;
     height:40px;
     text-align: center;  
-    margin-left: 5px;
-    
+    margin-left: 5px;  
+}
+.tag:hover{
+    color:white;
+    background-color: grey
+}
+.tags:hover{
+    color:white;
+    background-color: grey
 }
 .tag{
     color:white;
@@ -431,7 +416,6 @@ outline: none;
     text-align: center;
     margin-left: 5px;
 }
-
 .graphics{
     color:white;
     border: 1px solid #FFFFFF;
@@ -455,7 +439,6 @@ outline: none;
     overflow: hidden;
     margin-left:5%;
     margin-right:5%;
-
  }
  .pre-btn{
     position: absolute;
@@ -486,11 +469,9 @@ outline: none;
 }
 .pre-btn{
     margin-left:55px;
- 
 }
 .nxt-btn{
     margin-right: 50px;
-
 }
 
  /* MODAL */
@@ -579,7 +560,6 @@ outline: none;
     margin-left: 10px;
     color:#FA8232;
     border-radius: 2px;
-    
  }
  .buy-now p{
     padding-left: 20px;
@@ -599,7 +579,7 @@ outline: none;
  }
 
   /* SHOPPING CARD */
-  .top-logo{
+.top-logo{
     background-color: #1B6392;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -619,14 +599,12 @@ outline: none;
     width:20px;
     height: 20px;
     margin-top: 14px;
-
 }
 .homearrow{
     width:12px;
     height: 12px;
     margin-top: 20px;
 }
-
 .path-info p{
     margin-left: 10px;
     color:#5F6C72
@@ -638,7 +616,6 @@ outline: none;
 }
 .home-button{
     text-decoration: none;
-
 }
 .card-container{
     display: flex;
@@ -678,7 +655,6 @@ outline: none;
     padding-left: 40px;
     margin-top: 35px;
 }
-
 .quantity2{
     display: flex;
     width:120px;
@@ -697,7 +673,6 @@ outline: none;
     right: 0;
     margin-right: 40px;
 }
-   
 .return-container{
     display: flex;
     border-top: 1px solid #E4E7E9;
@@ -776,7 +751,6 @@ outline: none;
     width:20px;
     height: 20px;
     margin-top: 15px;
-
 }
 .proceed p{
     padding-left: 50px;
@@ -792,6 +766,38 @@ outline: none;
     color:#1B6392;
     border: 1.5px solid #1B6392
 }
+
+
+.product-div1:hover{
+    border: 2px solid orange;
+}
+.drone-div:hover{
+    border: 2px solid orange;
+}
+.phone-div:hover{
+    border: 2px solid orange;
+}
+.gaming-div:hover{
+    border: 2px solid orange;
+}
+.monitor-div:hover{
+    border: 2px solid orange;
+}
+.headphone-div:hover{
+    border: 2px solid orange;
+}
+.camera-div:hover{
+    border: 2px solid orange;
+}
+.laptops:hover, .phones:hover, .headphones:hover, .accessories:hover, .cameras:hover, .tv:hover{
+    border: 2px solid orange;
+}
+
+
+
+
+
+
 
 
 
