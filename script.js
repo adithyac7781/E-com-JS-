@@ -1,3 +1,15 @@
+document.addEventListener("cookieyes_banner_load", function (eventData) {
+    //  Check the value in the JSON eventData and perform the desired action.
+    console.log("banner-loading");
+})
+
+document.addEventListener("cookieyes_consent_update", function (eventData) 
+{
+    // Check the value in the JSON eventData and perform desired action
+     console.log("banner-update");
+});
+
+
 //SLIDESHOW
 const productContainers = document.querySelectorAll('.shopping-catgs');
 const nxtBtn = document.querySelectorAll('.nxt-btn');
