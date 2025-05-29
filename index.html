@@ -1,6 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+<script>
+    document.addEventListener('cookieyes_banner_load', () => {
+        const element = document.querySelector('.cky-title');
+        if (element) {
+            const wrapper = document.createElement("div");
+            wrapper.style.cssText = `
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 8px;
+            `;
+
+            const link = document.createElement("a");
+            link.id = "continue-btn";
+            link.innerText = "Continue without accepting";
+            link.style.cssText = `
+                text-decoration: underline;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                color: #E25E00;
+                cursor: pointer;
+            `;
+
+            link.addEventListener("click", function () {
+                performBannerAction("reject");
+            });
+
+            wrapper.appendChild(link);
+            element.parentNode.insertBefore(wrapper, element);
+        } else {
+            console.log('Element not found');
+        }
+    });
+</script>
+
+
+
+
+
         <title>CLICON</title>
         <link href="style.css" rel="stylesheet">
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
