@@ -120,7 +120,8 @@ const updateCartCount = () => {
 };
 updateCartCount()
 
-//Script for prefernce centre button
+
+//Script for adding continue button
     document.addEventListener('cookieyes_banner_load', () => {
         const element = document.querySelector('.cky-title');
         if (element) {
@@ -155,7 +156,7 @@ updateCartCount()
 
 
 
-//Script for adding continue button
+//Script for prefernce centre button
 document.addEventListener('cookieyes_banner_load', () => {
     const noticeContainer = document.querySelector('.cky-notice');
     if (noticeContainer) {
