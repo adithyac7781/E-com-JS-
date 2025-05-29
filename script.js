@@ -166,9 +166,8 @@ document.addEventListener('cookieyes_banner_load', () => {
         preferenceLink.id = 'RevButton';
         
         // Set button text based on language
-        preferenceLink.innerText = lang === 'en' 
-            ? 'Manage my preferences →' 
-            : 'Configurer mes préférences →'; // French is default
+        preferenceLink.innerText = 'Manage my preferences →' ;
+           
 
         preferenceLink.style.display = 'block';
         preferenceLink.style.marginTop = '12px';
