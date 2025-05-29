@@ -120,9 +120,69 @@ const updateCartCount = () => {
 };
 updateCartCount()
 
+//Script for prefernce centre button
+    document.addEventListener('cookieyes_banner_load', () => {
+        const element = document.querySelector('.cky-title');
+        if (element) {
+            const wrapper = document.createElement("div");
+            wrapper.style.cssText = `
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 8px;
+            `;
+
+            const link = document.createElement("a");
+            link.id = "continue-btn";
+            link.innerText = "Continue without accepting";
+            link.style.cssText = `
+                text-decoration: underline;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                color: #E25E00;
+                cursor: pointer;
+            `;
+
+            link.addEventListener("click", function () {
+                performBannerAction("reject");
+            });
+
+            wrapper.appendChild(link);
+            element.parentNode.insertBefore(wrapper, element);
+        } else {
+            console.log('Element not found');
+        }
+    });
 
 
 
+//Script for adding continue button
+document.addEventListener('cookieyes_banner_load', () => {
+    const noticeContainer = document.querySelector('.cky-notice');
+    if (noticeContainer) {
+        const lang = document.documentElement.lang || 'fr'; // Default to French
+
+        const preferenceLink = document.createElement('a');
+        preferenceLink.id = 'RevButton';
+        
+        // Set button text based on language
+        preferenceLink.innerText = lang === 'en' 
+            ? 'Manage my preferences →' 
+            : 'Configurer mes préférences →'; // French is default
+
+        preferenceLink.style.display = 'block';
+        preferenceLink.style.marginTop = '12px';
+        preferenceLink.style.color = '#0073e6'; 
+        preferenceLink.style.cursor = 'pointer';
+
+        preferenceLink.addEventListener('click', function () {
+            revisitCkyConsent();
+        });
+
+        noticeContainer.appendChild(preferenceLink);
+    } else {
+        console.log('Cookie notice container not found');
+    }
+});
 
 
 
