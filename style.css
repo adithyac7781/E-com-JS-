@@ -794,6 +794,29 @@ body{
 }
 
 
+@media(max-width:440px){
+.cky-notice-btn-wrapper{
+   flex-direction:row;
+   flex-wrap:nowrap;
+}
+.cky-consent-bar{
+   width:80%;
+   margin: 0 auto;
+}
+.cky-consent-bar p,.cky-consent-bar .cky-btn{
+   font-size:70% !important;
+   line-height:1.5;
+}
+.cky-consent-container .cky-consent-bar, .cky-btn{
+   padding:2% 0;
+}
+
+.cky-notice-des a.cky-policy{
+ font-size:70% !important;
+}
+}
+
+
 
 
 
