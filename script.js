@@ -189,7 +189,6 @@ document.addEventListener("cookieyes_banner_load", () => {
   const container = document.querySelector('.cky-consent-container');
   document.addEventListener('click', function(event) {
     if (!container.contains(event.target)) {
-      console.log("hoi");
       container.style.display = 'none';
     } else {
       container.style.display = 'block';
