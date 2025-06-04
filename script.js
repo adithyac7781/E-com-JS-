@@ -184,17 +184,7 @@ document.addEventListener('cookieyes_banner_load', () => {
     }
 });
 
-//Script to hide the banner when a user clicks anywhere outside of it 
-document.addEventListener("cookieyes_banner_load", () => {
-  const container = document.querySelector('.cky-consent-container');
-  document.addEventListener('click', function(event) {
-    if (!container.contains(event.target)) {
-      container.style.display = 'none';
-    } else {
-      container.style.display = 'block';
-    }
-  });
-});
+
 
 
 
