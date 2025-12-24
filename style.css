@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
 .top{
     display: flex;
     background-color: black;
