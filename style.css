@@ -2,10 +2,6 @@ body{
     margin: 0;
 }
 
-.cky-switch input[type="checkbox"] {
-    display: none;
-}
-
 
 .top{
     display: flex;
